@@ -1,0 +1,11 @@
+{
+  "name": "react-issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^24.8.0",
+    "react": "^16.8.6",
+    "react-test-renderer": "^16.8.6"
+  }
+}
