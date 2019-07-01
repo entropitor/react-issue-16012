@@ -15,7 +15,6 @@ describe("MyComponent", () => {
     ReactTestRenderer.create(React.createElement(MyComponent, {})).toJSON();
   });
   it("should render without errors when imported after resetModules called", () => {
-    const MyComponent = require("./index.js");
     ReactTestRenderer.create(React.createElement(MyComponent, {})).toJSON();
   });
 });
